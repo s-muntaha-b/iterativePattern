@@ -1,7 +1,7 @@
 PShader shader;
 
 void setup() {
-  size(800, 600, P2D);
+  size(1000, 1000, P2D);
   shader = loadShader("info.glsl");
   shader.set("resolution", float(width), float(height));
   shader.set("rate", 1.0);
